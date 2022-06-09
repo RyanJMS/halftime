@@ -1,0 +1,36 @@
+{
+  "name": "halftime",
+  "version": "1.0.0",
+  "description": "A fantasy soccer, and soccer news/stats application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanJMS/halftime.git"
+  },
+  "author": "RyanJMS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RyanJMS/halftime/issues"
+  },
+  "homepage": "https://github.com/RyanJMS/halftime#readme",
+  "devDependencies": {
+    "concurrently": "^7.2.1",
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.7",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.6",
+    "request": "^2.88.2"
+  }
+}
