@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import { Link, Navigate } from "react-router-dom";
-import Video from '../layout/Video'
+import Video from "../layout/Video";
+import Mask from "../layout/Mask";
+import Container from "../layout/Container";
 
 const Login = () => {
   const [formData, setFormData] = useState({

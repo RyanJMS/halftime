@@ -1,8 +1,9 @@
 import React from "react";
 import Navbar from "./components/layout/Navbar";
-import Landing from "./components/layout/Landing";
+import Landing from "./pages/Landing";
 import Register from "./components/auth/Register";
 import Login from "./components/auth/Login";
+import Info from "./pages/Info";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./style.css";
 
@@ -21,6 +22,7 @@ function App() {
             <Route path="/" element={<Landing />} />
             <Route path="/register" element={<Register />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/info" element={<Info />} />
           </Routes>
         </Router>
       </div>

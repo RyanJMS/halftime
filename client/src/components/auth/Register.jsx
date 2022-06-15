@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Link, Navigate } from "react-router-dom";
-import Video from "../layout/Video";
 
 const Register = () => {
   const [formData, setFormData] = useState({

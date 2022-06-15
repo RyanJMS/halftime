@@ -31,11 +31,27 @@ const Navbar = () => {
 
   const guestLinks = (
     <ul>
-      <li>
-        <Link to="/register">Register</Link>
+      <li className="nav-item">
+        <Link className="nav-link" to="/register">
+          Register
+        </Link>
       </li>
-      <li>
-        <Link to="/login">Login</Link>
+      <li className="nav-item">
+        <Link className="nav-link" to="/login">
+          Login
+        </Link>
+      </li>
+      <li className="nav-item">
+        <Link className="nav-link" to="/streams">
+          <i className="fas fa-tv light-green-text-2"></i>
+          Streams
+        </Link>
+      </li>
+      <li className="nav-item">
+        <Link className="nav-link" to="/info">
+          <i className="fas fa-globe light-green-text-2"></i>
+          Team Info
+        </Link>
       </li>
     </ul>
   );
