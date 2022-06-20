@@ -47,12 +47,6 @@ const Navbar = () => {
           Streams
         </Link>
       </li>
-      <li className="nav-item">
-        <Link className="nav-link" to="/info">
-          <i className="fas fa-globe light-green-text-2"></i>
-          Team Info
-        </Link>
-      </li>
     </ul>
   );
 
@@ -61,7 +55,7 @@ const Navbar = () => {
       <h1>
         <Link className="gradient-text" to="/" style={styles.navB}>
           <img src="images/logoA.png" style={styles.imgB} alt="logo" />
-          HalfTime
+          Halftime
         </Link>
       </h1>
 
