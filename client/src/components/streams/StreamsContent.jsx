@@ -116,7 +116,7 @@ function StreamsContent() {
                     <div className="flip-card-front">
                       <img
                         className="img-fluid"
-                        src="https://lh3.googleusercontent.com/HzMRkEB8dprZfgMQttAhjZ6S_DQP6pRtvYzQTNJYh9R5kRyqJ2o1eID0nHnllW6TqgU"
+                        src="https://yt3.ggpht.com/ytc/AKedOLTM6SZCtSVFe-v9Cldka8O25yjEnKpH_DlxoOQnKA=s900-c-k-c0x00ffffff-no-rj"
                         alt="Avatar"
                         style={styles.img1}
                       />
